@@ -4,6 +4,7 @@ import EntranceAni from "./transitionAnimation/entranceAni";
 import PageSwitchAni from "./transitionAnimation/pageAni";
 import { motion } from "framer-motion";
 import Newestposts from "./newestPosts";
+import MainCardSection from "./mainpagecard";
 
 function Mainpage({ isFirstMount, dark }) {
   const darkcheck = dark ? "bg-[#121212] text-white" : "bg-white text-black";
@@ -25,13 +26,8 @@ function Mainpage({ isFirstMount, dark }) {
           </div>
         </div>
 
-        <div className="w-full justify-center pt-10 flex">
-          <div className="w-full px-40 grid grid-cols-2 ">
-            <div className="w-full bg-red-500 grid justify-center">
-              <h1 className="text-2xl">-Objectives-</h1>
-            </div>
-            <div className="w-full bg-blue-500 grid justify-center">sf</div>
-          </div>
+        <div className="w-full justify-center pt-28 px-40 flex">
+          <MainCardSection />
         </div>
 
         <div className="w-full justify-end flex pt-10">

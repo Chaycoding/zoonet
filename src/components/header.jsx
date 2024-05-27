@@ -7,12 +7,12 @@ function Header({ isAuth, button, user }) {
   const scrollHeader = `sticky top-0 z-20 duration-[1s] transition-all ${scrollColour}`;
   return (
     <div className={scrollHeader}>
-      <div className="w-full h-24 text-white hidden items-center sm:flex px-10 ">
+      <div className="w-full h-12 text-white hidden items-center sm:flex px-10 ">
         <div className="font-[Open Sans]  h-full flex justify-center items-center">
           <Link to="/">
             <button className="  font-semibold flex justify-center items-center">
-              <div className="bg-zoonet h-20 w-20 bg-cover"></div>
-              <span className="text-4xl ml-2 font-bold">ZooNet</span>
+              <div className="bg-zoonet h-10 w-10 bg-cover"></div>
+              <span className="text-3xl ml-2 font-bold">ZooNet</span>
             </button>
           </Link>
         </div>

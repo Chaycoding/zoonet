@@ -7,6 +7,7 @@ export default {
         balloons: `url(/src/components/images/high quality/bal.webp)`,
         tower: `url(/src/components/images/high quality/thatimg.webp)`,
         loginn: `url(/src/components/images/high quality/login.webp)`,
+        deerpic: `url(/src/components/images/high quality/deerpic.webp)`,
         openanimation: `url(/src/components/images/high quality/openanimation.webp)`,
         landing: `url(/src/components/images/high quality/birdsayuru.jpg)`,
         zoonet: `url(/src/components/images/high quality/zoonet.png)`,
